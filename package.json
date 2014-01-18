@@ -1,17 +1,18 @@
 {
   "name": "TDD",
   "version": "0.0.0",
-  "description": "",
+  "description": "ERROR: No README data found!",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "should": "~2.1.1"
+    "should": "~2.1.1",
+    "mocha": "~1.17.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
